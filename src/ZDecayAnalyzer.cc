@@ -13,7 +13,7 @@
 //
 // Original Author:  Dinko Ferencek,8 R-004,+41227676479,
 //         Created:  Wed Jul 17 21:47:50 CEST 2013
-// $Id$
+// $Id: ZDecayAnalyzer.cc,v 1.1 2013/07/18 00:24:27 ferencek Exp $
 //
 //
 
@@ -98,8 +98,8 @@ ZDecayAnalyzer::ZDecayAnalyzer(const edm::ParameterSet& iConfig) :
 
 {
    //now do what ever initialization is needed
-   int ptBins=200;
-   double ptMin=0., ptMax=200.;
+   int ptBins=1000;
+   double ptMin=0., ptMax=1000.;
    int etaBins=200;
    double etaMin=-5., etaMax=5.;
    int massBins=150;
